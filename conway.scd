@@ -2,10 +2,6 @@
 // adapted from P5.js example
 
 s.options.memSize = 8192 * 16;
-s.options.outDevice = "BlackHole 16ch";
-s.options.Devices
-
-s.reboot;
 
 s.waitForBoot({
 
