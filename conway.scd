@@ -130,6 +130,7 @@ s.waitForBoot({
 					nbor = nbor - board[i][j];
 
 					//Rules of life:
+
 					if((board[i][j] == 1) && (nbor < 2)){ nextBoard[i][j] = 0;
 						if (i < (columns / 2)) {
 							left = left + 1;
